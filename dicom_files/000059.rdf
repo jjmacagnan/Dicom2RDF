@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:co="http://purl.org/co/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dicom="http://purl.org/healthcarevocab/v1#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="#1544153134-71-411663-981">
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:nextItem rdf:resource="#1544153134-71-834969-982"/>
+    <co:itemContent>ORIGINAL</co:itemContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-557769-977">
+    <dicom:SliceThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</dicom:SliceThickness>
+    <dicom:MagneticFieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</dicom:MagneticFieldStrength>
+    <dicom:NumberOfPhaseEncodingSteps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">333</dicom:NumberOfPhaseEncodingSteps>
+    <dicom:SOPClassUID rdf:resource="urn:oid:1.2.840.10008.5.1.4.1.1.4"/>
+    <dicom:InstanceCreatorUID rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.208665681583878439568774528684"/>
+    <dicom:ReceiveCoilName>SENSE-Breast-7</dicom:ReceiveCoilName>
+    <dicom:BitsAllocated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</dicom:BitsAllocated>
+    <dicom:WindowWidth rdf:resource="#1544153134-71-222791-1030"/>
+    <dicom:EchoTime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</dicom:EchoTime>
+    <dicom:ImagedNucleus>1H</dicom:ImagedNucleus>
+    <dicom:InstanceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</dicom:InstanceNumber>
+    <dicom:NumberOfAverages rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</dicom:NumberOfAverages>
+    <dicom:Columns rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640</dicom:Columns>
+    <dicom:SpacingBetweenSlices rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</dicom:SpacingBetweenSlices>
+    <dicom:WindowCenter rdf:resource="#1544153134-71-6001-1028"/>
+    <dicom:TemporalPositionIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dicom:TemporalPositionIdentifier>
+    <dicom:RepetitionTime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4132.625</dicom:RepetitionTime>
+    <dicom:PresentationLUTShape>IDENTITY</dicom:PresentationLUTShape>
+    <dicom:PixelRepresentation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dicom:PixelRepresentation>
+    <dicom:ReconstructionDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#double">369.230766296</dicom:ReconstructionDiameter>
+    <dicom:EchoNumbers rdf:resource="#1544153134-71-652524-1000"/>
+    <dicom:PhotometricInterpretation>MONOCHROME2</dicom:PhotometricInterpretation>
+    <dicom:ImagePositionPatient rdf:resource="#1544153134-71-109399-1014"/>
+    <dicom:IntervalsAcquired rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dicom:IntervalsAcquired>
+    <dicom:LowRRValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dicom:LowRRValue>
+    <dicom:NumberOfTemporalPositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dicom:NumberOfTemporalPositions>
+    <dicom:AcquisitionTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:21:14.000043</dicom:AcquisitionTime>
+    <dicom:LongitudinalTemporalInformationModified>MODIFIED</dicom:LongitudinalTemporalInformationModified>
+    <dicom:SpecificCharacterSet rdf:resource="#1544153134-71-262931-978"/>
+    <dicom:ContentTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:21:14.000043</dicom:ContentTime>
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#IE.Image"/>
+    <dicom:SequenceVariant rdf:resource="#1544153134-71-197476-996"/>
+    <dicom:LossyImageCompression>00</dicom:LossyImageCompression>
+    <dicom:PixelBandwidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">175.0</dicom:PixelBandwidth>
+    <dicom:HeartRate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dicom:HeartRate>
+    <dicom:PercentPhaseFieldOfView rdf:datatype="http://www.w3.org/2001/XMLSchema#double">136.470596879</dicom:PercentPhaseFieldOfView>
+    <rdfs:label>1544153134-71-557769-977</rdfs:label>
+    <dicom:BitsStored rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</dicom:BitsStored>
+    <dicom:ScanningSequence rdf:resource="#1544153134-71-430460-994"/>
+    <dicom:IntervalsRejected rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dicom:IntervalsRejected>
+    <dicom:InstanceCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-10-11</dicom:InstanceCreationDate>
+    <dicom:ImageType rdf:resource="#1544153134-71-88427-980"/>
+    <dicom:Rows rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640</dicom:Rows>
+    <dicom:EchoTrainLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</dicom:EchoTrainLength>
+    <dicom:HighRRValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dicom:HighRRValue>
+    <dicom:PercentSampling rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74.7126464844</dicom:PercentSampling>
+    <dicom:dBdt rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.0979749406</dicom:dBdt>
+    <dicom:ScanOptions rdf:resource="#1544153134-71-376004-998"/>
+    <dicom:HighBit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</dicom:HighBit>
+    <dicom:SamplesPerPixel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dicom:SamplesPerPixel>
+    <dicom:AcquisitionMatrix rdf:resource="#1544153134-71-755348-1005"/>
+    <dicom:ContentDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-12</dicom:ContentDate>
+    <dicom:ImageOrientationPatient rdf:resource="#1544153134-71-158137-1018"/>
+    <dicom:AcquisitionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-12</dicom:AcquisitionDate>
+    <dicom:InPlanePhaseEncodingDirection>ROW</dicom:InPlanePhaseEncodingDirection>
+    <dicom:AcquisitionNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dicom:AcquisitionNumber>
+    <dicom:MRAcquisitionType>2D</dicom:MRAcquisitionType>
+    <dicom:InstanceCreationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:46:38</dicom:InstanceCreationTime>
+    <dicom:TransmitCoilName>B</dicom:TransmitCoilName>
+    <dicom:SliceLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#double">118.000003815</dicom:SliceLocation>
+    <dicom:SAR rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.934808492661</dicom:SAR>
+    <dicom:ImagingFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#double">63.896234</dicom:ImagingFrequency>
+    <dicom:PixelSpacing rdf:resource="#1544153134-71-197852-1025"/>
+    <dicom:SOPInstanceUID rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.196625566233837832802868567056"/>
+    <dicom:FlipAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</dicom:FlipAngle>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-867051-983">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:nextItem rdf:resource="#1544153134-71-837527-984"/>
+    <co:itemContent>M_SE</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-130749-979">
+    <co:itemContent>ISO_IR 100</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-462164-997">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent>OSP</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-44799-989">
+    <dicom:CodingSchemeDesignator>BROKER</dicom:CodingSchemeDesignator>
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#SequenceItem.ProcedureCodeSequence"/>
+    <rdfs:label>1544153134-71-44799-989</rdfs:label>
+    <dicom:CodeValue>MBBWW</dicom:CodeValue>
+    <dicom:CodeMeaning>MRI Breast Bilateral with and without Contrast</dicom:CodeMeaning>
+    <dicom:ContextGroupExtensionFlag>N</dicom:ContextGroupExtensionFlag>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-627882-993">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent>DCM:113100/113105/113107/113108/113109/113111</co:itemContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-191211-992">
+    <rdfs:label>List</rdfs:label>
+    <co:lastItem rdf:resource="#1544153134-71-627882-993"/>
+    <co:item rdf:resource="#1544153134-71-627882-993"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:firstItem rdf:resource="#1544153134-71-627882-993"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-88427-980">
+    <co:item rdf:resource="#1544153134-71-411663-981"/>
+    <rdfs:label>List</rdfs:label>
+    <co:item rdf:resource="#1544153134-71-834969-982"/>
+    <co:item rdf:resource="#1544153134-71-221104-985"/>
+    <co:item rdf:resource="#1544153134-71-867051-983"/>
+    <co:lastItem rdf:resource="#1544153134-71-221104-985"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:firstItem rdf:resource="#1544153134-71-411663-981"/>
+    <co:item rdf:resource="#1544153134-71-837527-984"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.196625566233837832802868567056">
+    <dicom:RescaleType>normalized</dicom:RescaleType>
+    <dicom:PerformedProcedureStepEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:10:03</dicom:PerformedProcedureStepEndTime>
+    <rdf:type rdf:resource="urn:oid:1.2.840.10008.5.1.4.1.1.4"/>
+    <dcterms:subject rdf:resource="#1544153134-71-485334-986"/>
+    <dicom:PTag.CTP.0013.0010>BREAST-DIAGNOSIS</dicom:PTag.CTP.0013.0010>
+    <dcterms:subject rdf:resource="#1544153134-71-557769-977"/>
+    <dicom:VerifyingObserverName>Removed by CTP</dicom:VerifyingObserverName>
+    <rdfs:label>1.3.6.1.4.1.14519.5.2.1.4792.2001.196625566233837832802868567056</rdfs:label>
+    <dcterms:subject rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.662880817823867534652983075663"/>
+    <dicom:PregnancyStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dicom:PregnancyStatus>
+    <dicom:DiffusionGradientOrientation rdf:resource="#1544153134-71-702708-1010"/>
+    <dicom:CodingSchemeDesignator>DCM</dicom:CodingSchemeDesignator>
+    <dicom:Tag.0013.0010>CTP</dicom:Tag.0013.0010>
+    <dicom:DiffusionBValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</dicom:DiffusionBValue>
+    <dicom:PerformedProcedureStepEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-10-11</dicom:PerformedProcedureStepEndDate>
+    <dicom:AcquisitionDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#double">433.925628662</dicom:AcquisitionDuration>
+    <dcterms:subject rdf:resource="#1544153134-71-715255-1040"/>
+    <dcterms:subject rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.141979258751019245797505306644"/>
+    <dicom:RescaleSlope rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.3540903541</dicom:RescaleSlope>
+    <dicom:RequestedProcedureComments>MRI BREAST</dicom:RequestedProcedureComments>
+    <dcterms:subject rdf:resource="#1544153134-71-650409-991"/>
+    <dcterms:subject rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.197465940191351169846602444317"/>
+    <dicom:PTag.CTP.0013.0013>47922001</dicom:PTag.CTP.0013.0013>
+    <dicom:RequestedProcedureDescription>MRI BREAST, BILATERAL WITH T WITHOUT CONTRAST</dicom:RequestedProcedureDescription>
+    <dicom:RescaleIntercept rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</dicom:RescaleIntercept>
+    <dcterms:subject rdf:resource="#1544153134-71-259564-1032"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-109399-1014">
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:item rdf:resource="#1544153134-71-926783-1016"/>
+    <co:item rdf:resource="#1544153134-71-191427-1015"/>
+    <co:lastItem rdf:resource="#1544153134-71-351208-1017"/>
+    <co:item rdf:resource="#1544153134-71-351208-1017"/>
+    <co:firstItem rdf:resource="#1544153134-71-191427-1015"/>
+    <rdfs:label>List</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-605156-995">
+    <co:itemContent>SE</co:itemContent>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-710041-1011">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</co:itemContent>
+    <co:nextItem rdf:resource="#1544153134-71-790783-1012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-652524-1000">
+    <co:firstItem rdf:resource="#1544153134-71-769530-1001"/>
+    <co:lastItem rdf:resource="#1544153134-71-769530-1001"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <rdfs:label>List</rdfs:label>
+    <co:item rdf:resource="#1544153134-71-769530-1001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.662880817823867534652983075663">
+    <dicom:PerformedProtocolCodeSequence rdf:resource="#1544153134-71-549826-1033"/>
+    <dicom:SeriesTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:21:14.043000</dicom:SeriesTime>
+    <dicom:RequestAttributesSequence rdf:resource="#1544153134-71-657772-1036"/>
+    <dicom:PerformedProcedureStepStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:10:03</dicom:PerformedProcedureStepStartTime>
+    <dicom:PerformedProcedureStepDescription>MRI BREAST, BILATERAL WITH T WITHOUT CONTRAST</dicom:PerformedProcedureStepDescription>
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#IE.Series"/>
+    <dicom:SeriesInstanceUID rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.662880817823867534652983075663"/>
+    <dicom:PatientPosition>HFP</dicom:PatientPosition>
+    <dicom:Modality>MR</dicom:Modality>
+    <dicom:BodyPartExamined>BREAST</dicom:BodyPartExamined>
+    <dicom:SeriesDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-12</dicom:SeriesDate>
+    <dicom:SeriesNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">401</dicom:SeriesNumber>
+    <dicom:SeriesDescription>T2W_TSE SENSE</dicom:SeriesDescription>
+    <dicom:PerformedProcedureStepStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-12</dicom:PerformedProcedureStepStartDate>
+    <rdfs:label>1.3.6.1.4.1.14519.5.2.1.4792.2001.662880817823867534652983075663</rdfs:label>
+    <dicom:ProtocolName>T2W_TSE SENSE</dicom:ProtocolName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-130166-1020">
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</co:itemContent>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:nextItem rdf:resource="#1544153134-71-436268-1021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-436268-1021">
+    <co:nextItem rdf:resource="#1544153134-71-107401-1022"/>
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</co:itemContent>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-316648-1019">
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</co:itemContent>
+    <co:nextItem rdf:resource="#1544153134-71-130166-1020"/>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-5693-1004">
+    <co:itemContent>2.6.3.5</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-479425-1026">
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.576923072338</co:itemContent>
+    <co:nextItem rdf:resource="#1544153134-71-16846-1027"/>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-351208-1017">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.2956886292</co:itemContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-161754-1008">
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">333</co:itemContent>
+    <co:nextItem rdf:resource="#1544153134-71-212524-1009"/>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-376004-998">
+    <rdfs:label>List</rdfs:label>
+    <co:firstItem rdf:resource="#1544153134-71-133317-999"/>
+    <co:lastItem rdf:resource="#1544153134-71-133317-999"/>
+    <co:item rdf:resource="#1544153134-71-133317-999"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-129505-1023">
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</co:itemContent>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <rdfs:label>List item</rdfs:label>
+    <co:nextItem rdf:resource="#1544153134-71-395863-1024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-117119-1035">
+    <dicom:CodingSchemeDesignator>BROKER</dicom:CodingSchemeDesignator>
+    <dicom:CodeValue>MBBWW</dicom:CodeValue>
+    <dicom:ContextGroupExtensionFlag>N</dicom:ContextGroupExtensionFlag>
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#SequenceItem.PerformedProtocolCodeSequence"/>
+    <dicom:CodeMeaning>MRI BREAST, BILATERAL WITH T WITHOUT CONTRAST</dicom:CodeMeaning>
+    <rdfs:label>1544153134-71-117119-1035</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-710820-1038">
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#SequenceItem.RequestAttributesSequence"/>
+    <dicom:RequestedProcedureID>9365482</dicom:RequestedProcedureID>
+    <rdfs:label>1544153134-71-710820-1038</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-485334-986">
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#IE.Equipment"/>
+    <dicom:DeviceSerialNumber>35016</dicom:DeviceSerialNumber>
+    <dicom:ManufacturerModelName>Achieva</dicom:ManufacturerModelName>
+    <dicom:StationName>PHILIPS-5FB0024</dicom:StationName>
+    <dicom:Manufacturer>Philips Medical Systems</dicom:Manufacturer>
+    <dicom:SoftwareVersions rdf:resource="#1544153134-71-798813-1002"/>
+    <rdfs:label>1544153134-71-485334-986</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-755348-1005">
+    <co:item rdf:resource="#1544153134-71-883366-1006"/>
+    <co:item rdf:resource="#1544153134-71-129168-1007"/>
+    <co:item rdf:resource="#1544153134-71-212524-1009"/>
+    <co:item rdf:resource="#1544153134-71-161754-1008"/>
+    <co:firstItem rdf:resource="#1544153134-71-883366-1006"/>
+    <rdfs:label>List</rdfs:label>
+    <co:lastItem rdf:resource="#1544153134-71-212524-1009"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-430460-994">
+    <co:item rdf:resource="#1544153134-71-605156-995"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:lastItem rdf:resource="#1544153134-71-605156-995"/>
+    <co:firstItem rdf:resource="#1544153134-71-605156-995"/>
+    <rdfs:label>List</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-197852-1025">
+    <co:item rdf:resource="#1544153134-71-479425-1026"/>
+    <co:lastItem rdf:resource="#1544153134-71-16846-1027"/>
+    <rdfs:label>List</rdfs:label>
+    <co:firstItem rdf:resource="#1544153134-71-479425-1026"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:item rdf:resource="#1544153134-71-16846-1027"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-259564-1032">
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#IE.ModalityPerformedProcedureStep"/>
+    <dicom:PerformedStationAETitle>MP1PHMR2</dicom:PerformedStationAETitle>
+    <rdfs:label>1544153134-71-259564-1032</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-883366-1006">
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:nextItem rdf:resource="#1544153134-71-129168-1007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-583594-976">
+    <dicom:FileMetaInformationGroupLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194</dicom:FileMetaInformationGroupLength>
+    <rdfs:label>dicom_files/000059.dcm</rdfs:label>
+    <dicom:MediaStorageSOPInstanceUID rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.196625566233837832802868567056"/>
+    <dicom:ImplementationClassUID rdf:resource="urn:oid:1.2.40.0.13.1.1"/>
+    <dicom:MediaStorageSOPClassUID rdf:resource="urn:oid:1.2.840.10008.5.1.4.1.1.4"/>
+    <dicom:TransferSyntaxUID rdf:resource="urn:oid:1.2.840.10008.1.2.1"/>
+    <dicom:ImplementationVersionName>dcm4che-1.4.27</dicom:ImplementationVersionName>
+    <dcterms:format rdf:resource="http://purl.org/NET/mediatypes/application/dicom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-191427-1015">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-199.664794922</co:itemContent>
+    <co:nextItem rdf:resource="#1544153134-71-926783-1016"/>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-222791-1030">
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:firstItem rdf:resource="#1544153134-71-331569-1031"/>
+    <co:lastItem rdf:resource="#1544153134-71-331569-1031"/>
+    <rdfs:label>List</rdfs:label>
+    <co:item rdf:resource="#1544153134-71-331569-1031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.197465940191351169846602444317">
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#IE.Study"/>
+    <dicom:ProcedureCodeSequence rdf:resource="#1544153134-71-232060-987"/>
+    <dicom:PatientWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.0</dicom:PatientWeight>
+    <dicom:AccessionNumber>5282018218189626</dicom:AccessionNumber>
+    <dicom:StudyDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-12</dicom:StudyDate>
+    <rdfs:label>1.3.6.1.4.1.14519.5.2.1.4792.2001.197465940191351169846602444317</rdfs:label>
+    <dicom:StudyDescription>MRI Breast Bilateral with and without Contrast</dicom:StudyDescription>
+    <dicom:StudyInstanceUID rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.197465940191351169846602444317"/>
+    <dicom:StudyTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:10:03</dicom:StudyTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-650409-991">
+    <dicom:DeidentificationMethod rdf:resource="#1544153134-71-191211-992"/>
+    <rdfs:label>1544153134-71-650409-991</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#IE.Patient"/>
+    <dicom:PatientID>BreastDx-01-0001</dicom:PatientID>
+    <dicom:PatientSex>F</dicom:PatientSex>
+    <dicom:PatientIdentityRemoved>YES</dicom:PatientIdentityRemoved>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-349627-988">
+    <co:itemContent rdf:resource="#1544153134-71-44799-989"/>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-790783-1012">
+    <rdfs:label>List item</rdfs:label>
+    <co:nextItem rdf:resource="#1544153134-71-128391-1013"/>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</co:itemContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-549826-1033">
+    <co:lastItem rdf:resource="#1544153134-71-773630-1034"/>
+    <rdfs:label>List</rdfs:label>
+    <co:item rdf:resource="#1544153134-71-773630-1034"/>
+    <co:firstItem rdf:resource="#1544153134-71-773630-1034"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-262931-978">
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:item rdf:resource="#1544153134-71-130749-979"/>
+    <rdfs:label>List</rdfs:label>
+    <co:firstItem rdf:resource="#1544153134-71-130749-979"/>
+    <co:lastItem rdf:resource="#1544153134-71-130749-979"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-926783-1016">
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-180.930401564</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+    <co:nextItem rdf:resource="#1544153134-71-351208-1017"/>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-599154-1003">
+    <co:nextItem rdf:resource="#1544153134-71-5693-1004"/>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent>2.6.3</co:itemContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-834969-982">
+    <co:nextItem rdf:resource="#1544153134-71-867051-983"/>
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent>PRIMARY</co:itemContent>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-158137-1018">
+    <co:item rdf:resource="#1544153134-71-107401-1022"/>
+    <co:firstItem rdf:resource="#1544153134-71-316648-1019"/>
+    <co:item rdf:resource="#1544153134-71-129505-1023"/>
+    <co:item rdf:resource="#1544153134-71-436268-1021"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:item rdf:resource="#1544153134-71-316648-1019"/>
+    <co:item rdf:resource="#1544153134-71-130166-1020"/>
+    <co:item rdf:resource="#1544153134-71-395863-1024"/>
+    <rdfs:label>List</rdfs:label>
+    <co:lastItem rdf:resource="#1544153134-71-395863-1024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-395863-1024">
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</co:itemContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-133317-999">
+    <co:itemContent>OTHER</co:itemContent>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-128391-1013">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</co:itemContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-331569-1031">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1710.0</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-769530-1001">
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-129168-1007">
+    <co:nextItem rdf:resource="#1544153134-71-161754-1008"/>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-798813-1002">
+    <co:lastItem rdf:resource="#1544153134-71-5693-1004"/>
+    <co:item rdf:resource="#1544153134-71-5693-1004"/>
+    <co:firstItem rdf:resource="#1544153134-71-599154-1003"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <rdfs:label>List</rdfs:label>
+    <co:item rdf:resource="#1544153134-71-599154-1003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-6001-1028">
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <rdfs:label>List</rdfs:label>
+    <co:firstItem rdf:resource="#1544153134-71-199165-1029"/>
+    <co:lastItem rdf:resource="#1544153134-71-199165-1029"/>
+    <co:item rdf:resource="#1544153134-71-199165-1029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-702708-1010">
+    <rdfs:label>List</rdfs:label>
+    <co:item rdf:resource="#1544153134-71-790783-1012"/>
+    <co:firstItem rdf:resource="#1544153134-71-710041-1011"/>
+    <co:lastItem rdf:resource="#1544153134-71-128391-1013"/>
+    <co:item rdf:resource="#1544153134-71-128391-1013"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:item rdf:resource="#1544153134-71-710041-1011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-837527-984">
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent>M</co:itemContent>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:nextItem rdf:resource="#1544153134-71-221104-985"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-773630-1034">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent rdf:resource="#1544153134-71-117119-1035"/>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-16846-1027">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.576923072338</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-2419-1037">
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+    <co:itemContent rdf:resource="#1544153134-71-710820-1038"/>
+    <rdfs:label>List item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-232060-987">
+    <rdfs:label>List</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:firstItem rdf:resource="#1544153134-71-349627-988"/>
+    <co:lastItem rdf:resource="#1544153134-71-349627-988"/>
+    <co:item rdf:resource="#1544153134-71-349627-988"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-221104-985">
+    <co:itemContent>SE</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-657772-1036">
+    <rdfs:label>List</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:firstItem rdf:resource="#1544153134-71-2419-1037"/>
+    <co:item rdf:resource="#1544153134-71-2419-1037"/>
+    <co:lastItem rdf:resource="#1544153134-71-2419-1037"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-197476-996">
+    <co:lastItem rdf:resource="#1544153134-71-462164-997"/>
+    <co:firstItem rdf:resource="#1544153134-71-462164-997"/>
+    <rdf:type rdf:resource="http://purl.org/co/List"/>
+    <co:item rdf:resource="#1544153134-71-462164-997"/>
+    <rdfs:label>List</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-715255-1040">
+    <rdfs:label>1544153134-71-715255-1040</rdfs:label>
+    <dicom:PersonName>Removed by CTP</dicom:PersonName>
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#IE.Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-212524-1009">
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.141979258751019245797505306644">
+    <rdf:type rdf:resource="http://purl.org/healthcarevocab/v1#IE.FrameofReference"/>
+    <rdfs:label>1.3.6.1.4.1.14519.5.2.1.4792.2001.141979258751019245797505306644</rdfs:label>
+    <dicom:FrameOfReferenceUID rdf:resource="urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.141979258751019245797505306644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-107401-1022">
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</co:itemContent>
+    <rdfs:label>List item</rdfs:label>
+    <co:nextItem rdf:resource="#1544153134-71-129505-1023"/>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#1544153134-71-199165-1029">
+    <rdfs:label>List item</rdfs:label>
+    <co:itemContent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">984.0</co:itemContent>
+    <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+  </rdf:Description>
+</rdf:RDF>
