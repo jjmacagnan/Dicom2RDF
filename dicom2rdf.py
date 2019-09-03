@@ -1,16 +1,20 @@
 # -*- coding: utf-8 -*-
 # #!/usr/bin/python
+import datetime
 import os
-import sys,random,time,datetime
-import dicom,rdflib
-import uritools,settings
+import random
+import sys
+import time
 
+import dicom
+
+import settings
+import uritools
 from datadict import *
-from sopclasses import *
-from iods import *
 from iesbyattribute import *
-from sequencesbyattribute import *
+from iods import *
 from namespaces import *
+from sopclasses import *
 
 # global variables for generating unique URIs
 starttime=time.time()
