@@ -7,6 +7,7 @@ import sys
 import time
 
 import dicom
+import rdflib as rdflib
 
 import settings
 import uritools
@@ -460,5 +461,7 @@ for file in listaArgs:
     for de in ds:
         addtriples(graph,subject,ieuris,iod,de,ds)
 
-    outfile=open(outfile,"w")
+    print  outfile
+    outfile = open(os.path.join("rdf_files", outfile), 'w')
+    # outfile=open(outfile,"w")
     graph.serialize(outfile)
