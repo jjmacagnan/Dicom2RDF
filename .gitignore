@@ -1,6 +1,11 @@
 # Editors
+
 .vscode/
 .idea/
+
+dicom
+
+rdf_files
 
 # Mac/OSX
 .DS_Store
